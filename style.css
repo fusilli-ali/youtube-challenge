@@ -1,0 +1,61 @@
+body {
+	font-family: 'Reenie Beanie', cursive;
+}
+h1 {
+    text-align: center;
+    color: #D5040B;
+    font-size: 5rem;
+    padding-top: 20px;
+}
+.search-result.title {
+	font-size: 2rem;
+	font-style: italic;
+	font-weight: bold;
+    text-align: center;	
+}
+ul.items {
+	display: flex;
+}
+input#search {
+    font-family: 'Reenie Beanie', cursive;
+    margin: 0 auto;
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+img.thumb {
+	border: white 5px solid;
+	margin-left: 15px;
+    display: block;
+    margin: 0 auto;
+}
+.main {
+    width: 60%;
+    height: 275px;
+    background-image: url(images/movie-popcorn-opacity-80-cropped.png);
+    /*background-image: url(images/old-timey-film.jpg);*/
+    background-size: cover;
+    margin: 0 auto;
+    background-position-y: -135px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.results {
+	width: 60%;
+	height: 100%;
+	background-color: #E0DFDB;
+	margin: 0 auto;
+	margin-top: -48px;
+}
+@media only screen and (max-width: 944px) {
+    .main, .results {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 534px) {
+    h1 {
+        font-size: 4rem;
+        color: white;
+    }
+}
